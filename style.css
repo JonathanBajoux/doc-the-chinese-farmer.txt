@@ -1,0 +1,110 @@
+body{
+    width: 90%;
+    margin-left: 6%;
+    background-image: url(https://previews.123rf.com/images/jeep5d/jeep5d1508/jeep5d150800111/43424269-vue-paysage-d-un-champ-de-riz-le-riz-est-pr%C3%AAt-%C3%A0-%C3%AAtre-r%C3%A9colt%C3%A9-.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+blockquote{
+    font-size: 160%;
+    background-color: lightgray;
+    border-left: 3px solid firebrick;
+    text-align: center;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    max-width: 50%;
+    margin: auto;
+    }
+header h1{
+    background-color: yellow;
+    }
+.tableau{
+    border: medium solid #000;
+    clear: left;
+    margin-top: 5%;
+}
+
+
+tr, td{
+    border: thin solid lightgray;
+    color: white;
+    
+}
+tr:nth-child(odd) td:nth-child(even){
+    background-color: rgb(10, 9, 8);
+}
+tr:nth-child(even) td:nth-child(odd){
+    background-color: rgba(3, 3, 3, 0.979);
+}
+tr:nth-child(odd) td:nth-child(odd)
+{background-color: #222420;
+}
+tr:nth-child(even) td:nth-child(even){
+    background-color: #222420;
+}
+.nature{
+    font-size: 130%;
+    line-height: 120%;
+}
+li{
+    width: 23%;
+}
+.good{
+    background-image:url(bien.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: right;
+    padding-right: -40%;
+    padding-top: 1%;
+
+}
+.bad{
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: right;
+    padding-right: -40%;
+    padding-bottom: -1%;
+}
+.cat{
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: right;
+}
+.image1{
+    float: left;
+    
+}
+.texte1{
+    font-size: 160%;
+    margin-top: 3%;
+    padding-left: 10%;
+}
+.image2{
+    margin: auto;
+    
+}
+    
+.image3{
+    float: left;
+    margin: auto;
+}
+.texte2{
+    font-size: 150%;
+    margin-top: 3%;
+
+}
+.story{
+    text-align: center;
+    padding-right: 50%;
+}
+.copyright{
+    margin-top: 3%;
+}
+.conclusion{
+    margin-top: 3%;
+}
